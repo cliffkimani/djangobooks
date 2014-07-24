@@ -11,6 +11,12 @@ class Poll(models.Model):
     def __unicode__(self):
         return self.question
 
+
+
+
+
+
+#333
     def was_published_today(self):
         return self.pub_date.date() == datetime.date.today()
 
