@@ -1,2 +1,2 @@
 db = sqlite3
-pass = mymy
+pass = mymy = sql
